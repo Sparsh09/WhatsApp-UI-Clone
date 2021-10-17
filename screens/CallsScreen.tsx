@@ -1,0 +1,27 @@
+import * as React from "react";
+import { StyleSheet, FlatList } from "react-native";
+import users from "../data/Users";
+import EditScreenInfo from "../components/EditScreenInfo";
+import { Text, View } from "../components/Themed";
+import CallsItem from "../components/CallItem/index";
+
+export default function CallsScreen() {
+  return (
+    <View style={styles.container}>
+      <FlatList
+        style={{ width: "100%" }}
+        data={users}
+        renderItem={({ item }) => <CallsItem user={item} />}
+        keyExtractor={(item) => item.id}
+      />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
