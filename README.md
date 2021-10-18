@@ -7,8 +7,7 @@ WhatsApp-UI-Clone App with React Native , TypeScript and libraries
     </td>
     <td>
     </td>
-  </tr>![Screenshot_2021-10-17-16-39-16-78_6670449882cbc23d47962497f4a77da1 (1)]()
-
+  </tr>
   <tr>
     <td>
     </td>
