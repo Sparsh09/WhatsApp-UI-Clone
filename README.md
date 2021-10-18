@@ -1,6 +1,6 @@
 # WhatsApp-UI-Clone
 WhatsApp-UI-Clone App with React Native , TypeScript and libraries 
-<!-- <table>
+<table>
   <tr>
     <td>
 <img src="https://user-images.githubusercontent.com/53139589/137725907-8fb672b7-7e3d-4a41-934a-5c7c6b0e1a69.jpg" height="420px" width="320px"></li>
@@ -15,7 +15,7 @@ WhatsApp-UI-Clone App with React Native , TypeScript and libraries
     <td>
     </td>
   </tr>
-</table> -->
+</table>
 
     
 <!-- <ul>
